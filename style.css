@@ -20,6 +20,7 @@ body {
     padding: 40px 0px;
     width: 16%;
     border-right: 1px solid #dbdbdb;
+    height: 125vh;
 }
 
 .Navbar > ul {
@@ -118,5 +119,50 @@ body {
   .user-Details .username {
     font-size: 14px;
     
+  }
+
+  /* This is the posts styling section */
+
+  .post-container {
+    width: 76%;
+    border: 1px solid lightgray;
+    background-color: white;
+    margin-left: 155px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+
+  .image-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+  }
+
+  .image-icon > img {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    
+  }
+
+  .post-container > img {
+    width: 100%;
+    border-top: 1px solid lightgray;
+
+  }
+
+  .post-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .post-icons .iconz {
+    margin-right: 10px;
   }
   
