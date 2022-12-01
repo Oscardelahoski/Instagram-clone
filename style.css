@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* This is the navbar styling section */
+.main-container {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.Navbar {
+    padding: 40px 0px;
+    width: 16%;
+    border-right: 1px solid #dbdbdb;
+}
+
+.Navbar > ul {
+    padding-top: 35px;
+}
+
+.Navbar > ul > li {
+    list-style: none;
+    padding-bottom: 30px;
+}
+
+.Navbar > ul > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.Navbar > ul > li > a > i {
+    margin-right: 10px;
+}
+
+ .fa-bars{
+    padding-top: 40px;
+}
+
+.profile-picture > a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile-picture > a > img {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-picture > a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+/* Thi is the main area styling */
+
