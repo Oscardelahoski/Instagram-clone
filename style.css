@@ -15,7 +15,7 @@ body {
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    /* position: absolute; */
+    
       
 }
 
@@ -24,9 +24,7 @@ body {
     width: 16%;
     border-right: 1px solid #dbdbdb;
     height: 125vh;
-    position: fixed;
-    left: 0;
-    margin-left: 70px;
+    
 }
 
 .Navbar > ul {
