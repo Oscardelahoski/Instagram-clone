@@ -6,6 +6,7 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  
 }
 
 /* This is the navbar styling section */
@@ -14,6 +15,8 @@ body {
     margin: 0 auto;
     display: flex;
     flex-direction: row;
+    /* position: absolute; */
+      
 }
 
 .Navbar {
@@ -21,6 +24,9 @@ body {
     width: 16%;
     border-right: 1px solid #dbdbdb;
     height: 125vh;
+    position: fixed;
+    left: 0;
+    margin-left: 70px;
 }
 
 .Navbar > ul {
@@ -232,4 +238,112 @@ body {
   .post-texts-likes > p > span {
     font-weight: 500;
   }
+
+  /* This is the suggestion styling section */
+
+  .suggestion-section {
+    background-color: #fafafa;
+    width: 30%;
+  }
+
+  .suggestion-image-text > div {
+    padding: 40px 20px 20px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .suggestion-image-text > div > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+  }
+
   
+  .suggestion-image-text > div > div > img {
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+  }
+
+  .suggestion-image-text > div > a {
+       color: #23A3F6;
+       text-decoration: none;
+  }
+
+  .suggestion-image-text > div > div > div > p {
+    color: #AAAAAA;
+  } 
+
+  .suggestion-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 18px;
+  }
+
+  .suggestion-text > h5 {
+    color: #AAAAAA;
+
+  }
+
+  .suggestion-text > a {
+    text-decoration: none;
+    color: black;
+
+  }
+
+  .suggestion-follow > div > img {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+  }
+
+  .suggestion-follow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 20px 0px 20px;
+  }
+
+  .suggestion-follow > div {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .suggestion-follow > div > div > p {
+    color: #AAAAAA;
+    font-size: 12px;
+  }
+
+  .suggestion-follow > a {
+    color: #23A3F6;
+    text-decoration: none;
+  }
+  
+  .suggestion-section-contents > ul {
+    padding: 20px 0px 20px 18px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+
+  .suggestion-section-contents > ul > li {
+    list-style: none;
+  }
+
+  .suggestion-section-contents > ul > li > a {
+    text-decoration: none;
+    color: #AAAAAA;
+    font-size: 13px;
+  }
+
+  .suggestion-section-contents > p {
+    padding: 00px 0px 20px 18px;
+    color: #AAAAAA;
+  }
